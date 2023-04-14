@@ -8,27 +8,22 @@ body {
 }
 
 .header {
-	/*position: sticky;
-	top: 0;*/
+	position: sticky;
+	top: 0;
 	display: flex;
 	align-items: center;
-	cursor: pointer;
 	justify-content: space-between;
 	padding-left: 35px;
 	padding-right: 50px;
 	box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
 	border-top: 3px solid #f48225;
-	/*border-bottom: 1px solid whitesmoke;
-	/*background-color: #f8f9f9;*/
-	z-index: 1;*/
-}
-
-.header:hover {
-	/*border-style: hidden;*/
-	/*background-color: #e3e6e8;*/
+	border-bottom: 1px solid whitesmoke;
+	background-color: #f8f9f9;
+	z-index: 1;
 }
 
 .header img {
+	cursor: pointer;
 	width: 24px;
 }
 
@@ -36,6 +31,7 @@ body {
 	width: 150px;
 	padding: 10px;
 }
+
 
 .header span {
 	padding: 10px;
@@ -106,3 +102,209 @@ body {
 .header-left img:hover {
 	background-color: #e3e6e8;
 }
+
+/*Main body*/
+mainbody {
+	display:flex;
+}
+
+/*Sidebar*/
+.sidebar {
+	position: sticky;
+	top:50px;
+	height: 500px;
+	flex: 0.3;
+	max-width: 165px;
+	padding-top: 20px;
+	padding-left: 35px;
+	font-size: 12px;
+	border-right: 1px solid rgba(129, 129, 129, 0.2);
+}
+
+.sidebar-option {
+	display: end;
+	align-items: center;
+	padding: 5px 10px 10px 10px;
+	curson: pointer;
+	color: #818181;
+}
+
+.sidebar-option img {
+	padding-top: 5px;
+}
+
+.sidebar-option-active, .sidebar-option-active img {
+	background-color: #f1f2f3;
+	color: black;
+	font-weight: bolder;
+}
+
+.sidebar-option:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.public:hover, .collectives:hover {
+	color: #818181;
+	cursor: context-menu;
+}
+
+.home {
+	padding-top: 25px;
+}
+
+.public {
+	padding-top: 7px;
+	font-size: 11px;
+}
+
+.option-with-left-img img {
+	width: 16px;
+	padding: 0 5px 0px 5px;
+}
+
+.side-with-info-img {
+	padding-top: 10px;
+}
+
+.side-with-info-img img {
+	width: 12px;
+}
+
+.questions, .collectives-section, .explorecollectives, .teams-section, .createfreeteam {
+	font-size: 13px;
+	padding-top: 1px;
+	padding-right: 2px;	
+}
+
+.collectives {
+	padding-right: 55px;
+}
+
+.teams {
+	padding-right: 85px;
+}
+
+.tags, .users, .companies {
+	padding-left: 25px;
+}
+
+.collectives-section {
+	font-size: 11px;
+}
+
+.teams-section {
+	font-size: 11px;
+}
+
+.explorecollectives {
+	padding-top: 5px;
+}
+
+.sidebar-option-active {
+	border-right: 3px solid #f48225;
+}
+
+.option-with-left-img p {
+	color: #0066ff;
+	padding-top: 25px;
+	margin-left: 8px;
+	font-size: 12px;
+}
+
+/*Rest of the body*/
+
+
+/*.rest-body-head {
+	background-color: green;
+	flex: 1;
+	padding-left: 15px;
+}
+
+.rest-body {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px whitesmoke;
+	background-color: white;
+	margin: 8px;
+	padding-right: 50px;
+}
+
+.rest-body-left {
+	margin: 20px 10px 0 0;
+	border-radius: 10%;
+	box-shadow: 1px 0px 5px 0px rgb(220, 225, 228);
+}
+
+.rest-body-left img {
+	width: 120px;
+}
+
+.name-box {
+	width: 400px;
+	padding: 0 100px 0 10px;
+	margin-right: auto;
+}
+
+.name {
+	margin-top: 20px;
+	padding-right: 100px;
+	font-weight: 400;
+	font-size: xx-large;
+}
+
+.icon-description {
+	font-size: 12px;
+	font-weight: 400;
+	color: gray;
+	padding-left: 5px;
+	margin-right: 10px;
+}
+
+.emoji {
+	color: black;
+	margin: 0 0 10px 15px;
+}
+
+.name-body-option-section1 {
+	display: flex;
+	cursor: pointer;
+	color: grey;
+	margin-top: 5px;
+	padding-bottom: 12px;
+}
+
+.name-body-option-section1 img {
+	width: 18px;
+}
+
+.name-body-option-section2 {
+	display: flex;
+	cursor: pointer;
+	color: grey;
+	margin-left: 1px;
+}
+
+.name-body-option-section2 img {
+	width: 18px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
