@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link rel="stylesheet" href="css/styles.css">		
 		<title>User Jon Skeet - Stack Overflow</title>
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="shortcut icon" href="assets/.png">
 	</head>
-
 	<body>
 		<!-- Header begins -->
 		<div class="header">
-			<div class="logo">
-				<img src="assets/images/logo.png" alt="Stack Overflow Logo">
-			</div>
-			<span class="products">Products</span>
-			<div class="header-search">
-				<img src="assets/images/search.png" alt="Search">
-				<input type="text" placeholder="Search...">
+			<div class="header-rest">
+				<div class="logo-image">
+					<img src="assets/images/logo.png" alt="Stack overflow logo">
+				</div>
+				<span class="products">Products</span>		
+				<div class="header-search">
+				<img src="assets/images/search.png" alt="Search">		
+				<input type="text" placeholder="Search...">		
 			</div>
 			<div class="header-profile">
-				<img title="Your Name" src="assets/images/profile.png" alt="Your Profile">
+				<img src="assets/images/profile.png" alt="Your Profile">
 				<h4 title="your reputation">1</h4>
 			</div>
-			<div class="header-left">
-				<img title="Recent inbox messages" src="assets/images/inbox.png" alt="Inbox">
-				<img title="You have new achievements "src="assets/images/trophy.png" alt="Award">
-				<img title="Help Center and other resources "src="assets/images/help.png" alt="Help">
-				<img title="A list of all 181 Stack Exchange sites "src="assets/images/stackexchangesites.png" alt="Stack Exchange Sites">	
+			<img title="Recent inbox messages" src="assets/images/inbox.png" alt="Inbox">
+			<img title="You have new achievements "src="assets/images/trophy.png" alt="Award">
+			<img title="Help Center and other resources "src="assets/images/help.png" alt="Help">
+			<img title="A list of all 181 Stack Exchange sites "src="assets/images/stackexchangesites.png" alt="Stack Exchange Sites">	
 			</div>
 		</div>
 		<!-- Header ends -->
 		<!-- Main Body begins -->
-		<div class="mainbody">
+		<div class="main-body">
 			<!-- Sidebar begins -->
 			<div class="sidebar">
 				<div class="sidebar-option">
@@ -40,22 +40,21 @@
 				</div>
 				<div class="sidebar-option option-with-left-img">
 					<img src="assets/images/world.png" alt="World">
-					<span class="questions">Questions</span>
+					<span class="question-side"> Questions</span>
 				</div>
 				<div class="sidebar-option">
 					<span class="tags">Tags</span>
 				</div>
 				<div class="sidebar-option sidebar-option-active">
-					<span class="users">Users</span>	
+					<span class="users">Users</span>
 				</div>
 				<div class="sidebar-option">
 					<span class="companies">Companies</span>
-				</div>
-				<div class="sidebar-option side-with-info-img">
+                        	</div>
+                        	<div class="sidebar-option side-with-info-img">
 					<span class="collectives-section">
-						<span class="collectives">COLLECTIVES</span>
-						<img src="assets/images/info.png" alt="Info">
-					</span>
+					<span class="collectives">COLLECTIVES</span>
+					<img src="assets/images/info.png" alt="Info">
 				</div>
 				<div class="sidebar-option option-with-left-img">
 					<img src="assets/images/starcollections.png" alt="Star">
@@ -63,55 +62,89 @@
 				</div>
 				<div class="sidebar-option side-with-info-img">
 					<span class="teams-section">
-						<span class="teams">TEAM</span>
-						<img src="assets/images/info.png" alt="Info">
-					</span>
+					<span class="teams">TEAMS</span>
+					<img src="assets/images/info.png" alt="Info">
 				</div>
 				<div class="sidebar-option option-with-left-img">
 					<img src="assets/images/briefcase.png" alt="Briefcase">
 					<span class="createfreeteam">Create free Team</span>
+				</div>
+				<div class="sidebar-option">
 					<p title="Stack Overflow for Teams has its own domain! &#013; &#013;You can now access your Teams at stackoverflowteams.com. Teams no longer appear in the left sidebar on stackoverflow.com. Check your email to learn more about these changes.">
 						Looking for your Teams?
 					</p>
-				</div>
+                        	</div>
 			</div>
 			<!-- Sidebar ends -->
 			<!-- Rest of the body begins -->
-
-  
-			<!--
 			<div class="rest-body-head">
 				<div class="rest-body">
 					<div class="rest-body-left">
 						<img src="assets/images/profilepicture.png" alt="Profile Picture">
 					</div>
-					<div class="name-box">
-						<h3 class="name">Jon Skeet</h3>
-						<div class="name-body-option-section1">
+					 <div class="box">
+						<h3 class="name">Jon Skeet </h3>
+						<div class="name-body-option">
 							<img src="assets/images/cake.png" alt="Cake">
-							<span class="icon-description">Member for 14 years, 6 months </span>
-							<img src="assets/images/clock.png" alt="Clock">
+							<span class="icon-description">Member for 14 years, 6 months</span>
+							<img src="assets/images/time.png" alt="Clock">
 							<span class="icon-description">Last seen this week</span>
 						</div>
-						<div class="name-body-option-section2">
-							<img src="assets/images/twitter.png" alt="Twitter logo">
-							<img src="assets/images/git.png" alt="Git logo">
+						<div class="local-body-option">
+							<img title="jonskeet" id="twitterlogo" src="assets/images/twitter.png" alt="Twitter logo">
+							<img title="jskeet" id="githublogo" src="assets/images/github.png" alt="Git Hub logo">
 							<img src="assets/images/link.png" alt="Link">
 							<span class="icon-description">csharpindepth.com</span>
-							<img src="assets/images/pin.png" alt="Location">
+							<img src="assets/images/pin.png" alt="Location pin">
 							<span class="icon-description">Reading, United Kingdom</span>
 						</div>
 					</div>
-					<div class="dropdown">
-						<button class="dropdown-button">Profiles &#9662;</button>
+					<div class="drop-down">
+						<button class="drop-button">Profiles &#9662;</button>	
+					</div>
+                        	</div>
+				<div class="list-section">
+					<div class="list">
+						<button id="profile"> Profile </button>
+					</div>
+					<div class="list">
+						<button id="activity"> Activity </button>
 					</div>
 				</div>
-				-->
-
+				<div class="stat-head"> Stats <span class="about-head">About</span></div>
+				<div class="stat-user">
+					<div class="stat-collectives">
+						<div class="stats-table">
+							<div class="stat-table-numbers">
+								<div class="stat-number-left">1,397,416</div>
+								<div class="stat-number-right">383.9m</div>
+							</div>
+							<div class="stat-table-texts">
+								<div class="text-number-left">reputations</div>
+                                                      		<div class="text-number-right">reached</div>
+                                                	</div>
+							<div class="stat-table-numbers">
+								<div class="stat-number-left">35,587</div>
+								<div class="stat-number-right">53</div>
+							</div>
+							<div class="stat-table-texts">
+								<div class="text-number-left">answers</div>
+								<div class="text-number-right">questions</div>
+							</div>
+							<img src="assets/images/cup.png" alt="Award">
+							<span class="stat-percent">top<pre> </pre><p>0.01%</p><pre> </pre>overall</span>
+						</div>
+						<div class="collective">
+							<div class="collective-head"> Collectives </div>
+							<div class="collective-table">
+								<img src="assets/images/cloud.png" alt="Google cloud">
+								<div class="collective-text">
+									<span class="collective-company">Google Cloud</span>
+									<div class="collective-job">2021 &#8226; Employee</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<!-- Rest of the body ends -->
-
 		</div>
-		<!-- Main Body ends -->
-	</body>
-</html>
