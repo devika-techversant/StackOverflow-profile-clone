@@ -941,3 +941,70 @@ a:visited {
 	padding: 5px 5px 10px 5px;
 	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
+
+.footer {
+	display: flex;
+	background-color: #232629;
+	color: #babfc4;
+	font-size: 13px;
+}
+
+.footer h4 {
+	color: #babfc4;
+	font-size: 13px;
+	font-weight: 780;
+	margin: 25px 25px 15px 20px;
+	cursor: pointer;
+}
+
+.footer p {
+	font-size: 13px;
+	padding: 5px 5px 5px 25px;
+	font-weight: 100;
+	cursor: pointer;
+}
+
+.footer-logo img {
+	width: 35px;
+	padding: 20px 0 0 50px;
+	cursor: pointer;
+}
+
+.footer-product {
+	padding-left: 40px;
+}
+
+.footer-company {
+	padding-left: 50px;
+}
+
+.footer-network {
+	padding-left: 80px;
+}
+
+.footer-social {
+	font-size: 11px;
+	font-weight: 100;
+	margin: 30px 30px 220px 90px;
+}
+
+.social-space {
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.footer-rights {
+	margin: 90px 90px 50px 90px;
+}
+
+.footer-rights p {
+	font-size: 11px;
+	font-weight: 100;
+	padding: 0px;
+	margin: 0px;
+	cursor: auto;
+}
+
+.footer-rights u {
+	cursor: pointer;
+}
