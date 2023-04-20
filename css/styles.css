@@ -914,6 +914,7 @@ a:visited {
 	padding-left: 450px;
 	color: #818181;
 	font-size: 12.5px;
+	cursor: pointer;
 }
 
 .top-network-table {
