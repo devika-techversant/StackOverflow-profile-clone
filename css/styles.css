@@ -760,6 +760,7 @@ a:visited {
 	border: hidden;
 	border-radius: 3px;
 	padding: 4px 5px;
+	cursor: pointer;
 }
 
 .tag button:hover {
@@ -792,6 +793,7 @@ a:visited {
 
 .blue {
 	color: #0074cc;
+	cursor: pointer;
 }
 
 .top-post-button-table-one {
@@ -803,6 +805,7 @@ a:visited {
 	margin: 37px 0 0 139px;
 	font-size: 11px;
 	color: #6a737c;
+	cursor: pointer;
 }
 
 .top-post-button-table-one td {
@@ -819,6 +822,7 @@ a:visited {
 	margin: 37px 0 0 10px;
 	font-size: 11px;
 	color: #6a737c;
+	cursor: pointer;
 }
 
 .top-post-button-table-two td {
@@ -849,6 +853,11 @@ a:visited {
 .questions {
 	color: #397bc9;
 	font-size: 15px;
+	cursor: pointer;
+}
+
+.questions:hover {
+	color: #489afa;
 }
 
 .post-date {
