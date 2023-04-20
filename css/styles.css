@@ -223,11 +223,14 @@ body {
 
 .collectives-section {
 	font-size: 11px;
-
+	display: flex;
+	align-items: center;
 }
 
 .teams-section {
 	font-size: 11px;
+	display: flex;
+	align-items: center;
 }
 
 .explorecollectives {
@@ -291,13 +294,6 @@ body {
 	margin-right: 10px;
 }
 
-/*.emoji {
-	padding: 10px;
-	background-color: red;
-	color: red;
-	margin: 0 0 10px 15px;
-}*/
-
 .name-body-option {
 	display: flex;
 	color: grey;
@@ -353,8 +349,6 @@ body {
 }
 
 #profile, #activity {
-	/*display: flex;
-	align-items: center;*/
 	margin-left: 10px;
 	padding: 7px 10px 7px 10px;
 	border: none;
@@ -513,11 +507,6 @@ body {
 a:visited {
 	color: #0063bf;
 }
-
-/*.a:link {
-	color: #0063bf;
-	text-decoration: underline;
-}*/
 
 .view-space {
 	padding-left: 40px;
@@ -837,7 +826,6 @@ a:visited {
 
 
 .top-post-table {
-	/*border-collapse: collapse;*/
 	width: 742px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
 	border-radius: 7px;
@@ -929,7 +917,6 @@ a:visited {
 }
 
 .top-network-table {
-	/*border-collapse: collapse;*/
 	width: 742px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
 	border-radius: 7px;
