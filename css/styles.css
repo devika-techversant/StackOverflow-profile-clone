@@ -28,7 +28,7 @@ body {
 	background-color: #e3e6e8;
 }
 
-.header-rest {
+.headerRest {
 	display: flex;
 	align-items: center;
 	background-color: #f8f9f9;
@@ -38,17 +38,17 @@ body {
 	border-top: 3px solid #f48225;
 }
 
-.header-rest img {
+.headerRest img {
 	width: 24px;
 	background-color: #f8f9f9;
 	padding: 1px 5px;
 }
 
-.logo-image img {
+.logoImage img {
 	width: 150px;
 }
 
-.header-rest span {
+.headerRest span {
 	font-size: 12px;
 	padding: 10px;
 	cursor: pointer;
@@ -69,12 +69,12 @@ body {
 	border-radius: 20px;
 }
 
-.header-rest img:hover {
+.headerRest img:hover {
 	border-style: hidden;
 	background-color: #e3e6e8;
 }
 
-.header-profile {
+.headerProfile {
 	display: flex;
 	align-items: center;
 	margin: 0 20px 0 12px;
@@ -82,22 +82,22 @@ body {
 	border-style: hidden;
 }
 
-.header-profile img {
+.headerProfile img {
 	width: 24px;
 }
 
-.header-profile b {
+.headerProfile b {
 	text-align: justify;
 	font-size: 12px;
 }
 
-.header-profile:hover {
+.headerProfile:hover {
 	cursor: pointer;
 	background-color: #e3e6e8;
 	border-style: hidden;
 }
 
-.header-search {
+.headerSearch {
 	display: flex;
 	flex: 1;
 	align-items: center;
@@ -110,13 +110,13 @@ body {
 	background-color: white;
 }
 
-.header-search img {
+.headerSearch img {
 	width: 16px;
 	padding: 5px;
 	background-color: transparent;
 }
 
-.header-search input {
+.headerSearch input {
 	border: none;
 	height: 24px;
 	width: 700px;
@@ -127,17 +127,17 @@ body {
 	padding: 1px;
 }
 
-.header-search:active {
+.headerSearch:active {
 	border-color: #2093c3;
 	box-shadow: 0px 0px 8px #8acbde;
 }
 
-.header-search input:focus {
+.headerSearch input:focus {
 	box-shadow: 0px 0px 8px #8acbde;
 }
 
 /*Main body */
-.main-body {
+.mainBody {
 	display: flex;
 }
 
@@ -153,7 +153,7 @@ body {
 	border-right: 1px solid rgba(129, 129, 129, 0.2);
 }
 
-.sidebar-option {
+.sidebarOption {
 	display: flex;
 	align-items: end;
 	padding: 5px 10px 10px 10px;
@@ -161,23 +161,23 @@ body {
 	color: #818181;
 }
 
-.sidebar-option img {
+.sidebarOption img {
 	padding-top: 10px;
 	width: 22px;
 }
 
 
-.sidebar-option-active, .sidebar-option-active img {
+.sidebarOptionActive, .sidebarOptionActive img {
 	background-color: #f1f2f3;
 	color: black;
 	font-weight: bolder;
 }
 
-.sidebar-option:hover {
+.sidebarOption:hover {
 	color: black;
 }
 
-.sidebar-option-active{
+.sidebarOptionActive{
 	border-right: 3px solid #f48225;
 }
 
@@ -190,20 +190,20 @@ body {
 	font-size: 11px;
 }
 
-.option-with-left-img img {
+.optionWithLeftImg img {
 	width: 16px;
 	padding: 0 5px 5px 5px;
 }
 
-.side-with-info-img {
+.sideWithInfoImg {
 	padding-top: 10px;
 }
 
-.side-with-info-img img {
+.sideWithInfoImg img {
 	width: 12px;
 }
 
-.question-side, .collectives-section, .explorecollectives, .teams-section, .createfreeteam {
+.questionSide, .collectivesSection, .exploreCollectives, .teamsSection, .createFreeTeam {
 	font-size: 13px;
 	padding-top: 1px;
 	padding-right: 2px;
@@ -221,19 +221,19 @@ body {
 	padding-left: 25px;
 }
 
-.collectives-section {
+.collectivesSection {
 	font-size: 11px;
 	display: flex;
 	align-items: center;
 }
 
-.teams-section {
+.teamsSection {
 	font-size: 11px;
 	display: flex;
 	align-items: center;
 }
 
-.explorecollectives {
+.exploreCollectives {
 	padding-top: 5px;
 }
 
@@ -241,7 +241,7 @@ body {
 	border-right: 3px solid #f48225;
 }
 
-.sidebar-option p {
+.sidebarOption p {
 	color: #0066ff;
 	padding-top: 25px;
 	margin-left: 8px;
