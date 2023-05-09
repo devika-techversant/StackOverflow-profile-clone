@@ -28,7 +28,7 @@ body {
 	background-color: #e3e6e8;
 }
 
-.header-rest {
+.headerRest {
 	display: flex;
 	align-items: center;
 	background-color: #f8f9f9;
@@ -38,17 +38,17 @@ body {
 	border-top: 3px solid #f48225;
 }
 
-.header-rest img {
+.headerRest img {
 	width: 24px;
 	background-color: #f8f9f9;
 	padding: 1px 5px;
 }
 
-.logo-image img {
+.logoImage img {
 	width: 150px;
 }
 
-.header-rest span {
+.headerRest span {
 	font-size: 12px;
 	padding: 10px;
 	cursor: pointer;
@@ -69,12 +69,12 @@ body {
 	border-radius: 20px;
 }
 
-.header-rest img:hover {
+.headerRest img:hover {
 	border-style: hidden;
 	background-color: #e3e6e8;
 }
 
-.header-profile {
+.headerProfile {
 	display: flex;
 	align-items: center;
 	margin: 0 20px 0 12px;
@@ -82,22 +82,22 @@ body {
 	border-style: hidden;
 }
 
-.header-profile img {
+.headerProfile img {
 	width: 24px;
 }
 
-.header-profile b {
+.headerProfile b {
 	text-align: justify;
 	font-size: 12px;
 }
 
-.header-profile:hover {
+.headerProfile:hover {
 	cursor: pointer;
 	background-color: #e3e6e8;
 	border-style: hidden;
 }
 
-.header-search {
+.headerSearch {
 	display: flex;
 	flex: 1;
 	align-items: center;
@@ -110,13 +110,13 @@ body {
 	background-color: white;
 }
 
-.header-search img {
+.headerSearch img {
 	width: 16px;
 	padding: 5px;
 	background-color: transparent;
 }
 
-.header-search input {
+.headerSearch input {
 	border: none;
 	height: 24px;
 	width: 700px;
@@ -127,17 +127,17 @@ body {
 	padding: 1px;
 }
 
-.header-search:active {
+.headerSearch:active {
 	border-color: #2093c3;
 	box-shadow: 0px 0px 8px #8acbde;
 }
 
-.header-search input:focus {
+.headerSearch input:focus {
 	box-shadow: 0px 0px 8px #8acbde;
 }
 
 /*Main body */
-.main-body {
+.mainBody {
 	display: flex;
 }
 
@@ -153,7 +153,7 @@ body {
 	border-right: 1px solid rgba(129, 129, 129, 0.2);
 }
 
-.sidebar-option {
+.sidebarOption {
 	display: flex;
 	align-items: end;
 	padding: 5px 10px 10px 10px;
@@ -161,23 +161,23 @@ body {
 	color: #818181;
 }
 
-.sidebar-option img {
+.sidebarOption img {
 	padding-top: 10px;
 	width: 22px;
 }
 
 
-.sidebar-option-active, .sidebar-option-active img {
+.sidebarOptionActive, .sidebarOptionActive img {
 	background-color: #f1f2f3;
 	color: black;
 	font-weight: bolder;
 }
 
-.sidebar-option:hover {
+.sidebarOption:hover {
 	color: black;
 }
 
-.sidebar-option-active{
+.sidebarOptionActive{
 	border-right: 3px solid #f48225;
 }
 
@@ -190,20 +190,20 @@ body {
 	font-size: 11px;
 }
 
-.option-with-left-img img {
+.optionWithLeftImg img {
 	width: 16px;
 	padding: 0 5px 5px 5px;
 }
 
-.side-with-info-img {
+.sideWithInfoImg {
 	padding-top: 10px;
 }
 
-.side-with-info-img img {
+.sideWithInfoImg img {
 	width: 12px;
 }
 
-.question-side, .collectives-section, .explorecollectives, .teams-section, .createfreeteam {
+.questionSide, .collectivesSection, .exploreCollectives, .teamsSection, .createFreeTeam {
 	font-size: 13px;
 	padding-top: 1px;
 	padding-right: 2px;
@@ -221,19 +221,19 @@ body {
 	padding-left: 25px;
 }
 
-.collectives-section {
+.collectivesSection {
 	font-size: 11px;
 	display: flex;
 	align-items: center;
 }
 
-.teams-section {
+.teamsSection {
 	font-size: 11px;
 	display: flex;
 	align-items: center;
 }
 
-.explorecollectives {
+.exploreCollectives {
 	padding-top: 5px;
 }
 
@@ -241,7 +241,7 @@ body {
 	border-right: 3px solid #f48225;
 }
 
-.sidebar-option p {
+.sidebarOption p {
 	color: #0066ff;
 	padding-top: 25px;
 	margin-left: 8px;
@@ -249,12 +249,12 @@ body {
 }
 
 /* Rest of the body */
-.rest-body-head {
+.restBodyHead {
 	flex: 1;
 	padding-left: 15px;
 }
 
-.rest-body {
+.restBody {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1px whitesmoke;
@@ -263,13 +263,13 @@ body {
 	padding-right: 50px;
 }
 
-.rest-body-left {
+.restBodyLeft {
 	margin: 20px 10px 0 0;
 	border-radius: 10%;
 	box-shadow: 1px 0px 5px 0px rgb(220, 225, 228);
 }
 
-.rest-body-left img {
+.restBodyLeft img {
 	width: 120px;
 }
 
@@ -286,7 +286,7 @@ body {
 	font-size: xx-large;
 }
 
-.icon-description {
+.iconDescription {
 	font-size: 12px;
 	font-weight: 400;
 	color: gray;
@@ -294,36 +294,36 @@ body {
 	margin-right: 10px;
 }
 
-.name-body-option {
+.nameBodyOption {
 	display: flex;
 	color: grey;
 	margin-top: 5px;
 	padding-bottom: 12px;
 }
 
-.name-body-option img {
+.nameBodyOption img {
 	width: 18px;
 }
 
-.local-body-option {
+.localBodyOption {
 	display: flex;
 	color: grey;
 	margin-left: 1px;
 }
 
-.local-body-option img {
+.localBodyOption img {
 	width: 18px;
 }
 
-#twitterlogo , #githublogo {
+#twitterLogo , #githubLogo {
 	cursor: pointer;
 }
 
-.drop-down {
+.dropDown {
 	display: inline-block;
 }
 
-.drop-button { 
+.dropButton { 
 	background-color: transparent;	
 	color: rgba(129, 129, 129);
 	padding: 8px;
@@ -335,10 +335,10 @@ body {
 	margin-top: 10px;
 }
 
-.drop-button {
+.dropButton {
 	background-color: #e3e6e8;
 }
-.list-section {
+.listSection {
 	display: flex;
 	margin-bottom: 20px;
 }
@@ -375,22 +375,22 @@ body {
 	background-color: #e3e6e8;
 }
 
-.stat-head {
+.statHead {
 	color: hsl(210,8%,15%);
 	font-size: 21px;
 	margin-left: 10px;
 }
 
-.about-head {
+.aboutHead {
 	padding-left: 202px;
 }
 
-.stat-user {
+.statUser {
 	display: flex;
 	margin-top: 15px;
 }
 
-.stats-table {
+.statsTable {
 	width: 140px;
 	margin-left: 10px;
 	margin-right: 18px;
@@ -399,38 +399,38 @@ body {
 	border-radius: 5px;
 }
 
-.stat-table-numbers, .stat-table-texts {
+.statTableNumbers, .statTableTexts {
 	display: flex;
 }
 
-.stat-table-texts {
+.statTableTexts {
 	font-size: 13px;
 	color: #818181;
 }
 
-.stat-number-left  {
+.statNumberLeft  {
 	padding: 10px 20px 0px 20px;
 }
 
-.text-number-left {
+.textNumberLeft {
 	padding: 0px 20px 5px 20px;
 }
 
-.stat-number-right {
+.statNumberRight {
 	padding: 10px 7px 0px 0px;
 }
 
-.text-number-right {
+.textNumberRight {
 	padding: 0px 7px 5px 10px;
 }
 
-.stats-table img {
+.statsTable img {
 	padding-left: 20px;
 	padding-top: 10px;
 	width: 24px;
 }
 
-.stat-percent {
+.statPercent {
 	display: flex;
 	align-items: center;
 	font-size: 13px;
@@ -440,11 +440,11 @@ body {
 	cursor: pointer;
 }
 
-.stat-percent p {
+.statPercent p {
 	font-weight: bolder;
 }
 
-.collective-head {
+.collectiveHead {
 	color:  hsl(210,8%,15%);
 	font-size: 21px;
 	margin-top: 15px;
@@ -452,7 +452,7 @@ body {
 	margin-left: 10px;
 }
 
-.collective-table {
+.collectiveTable {
 	width: 220px;
 	display: flex;
 	align-items: center;
@@ -463,23 +463,23 @@ body {
 	margin-bottom: 20px;
 }
 
-.collective-table img:hover {
+.collectiveTable img:hover {
 	cursor: pointer;
 }
 
-.collective-company {
+.collectiveCompany {
 	font-size: 15px;
 	padding-left: 5px;
 	cursor: pointer;
 }
 
-.collective-job {
+.collectiveJob {
 	font-size: 12px;
 	padding-left: 5px;
 	cursor: pointer;
 }
 
-.about-user {
+.aboutUser {
 	color: hsl(210,8%,15%);
 	padding-left: 11px;
 }
@@ -488,15 +488,15 @@ body {
 	padding-top: 1px;
 }
 
-.info-space {
+.infoSpace {
 	padding: 10px 0;
 }
 
-.ul-padding {
+.ulPadding {
 	padding: 0 0 20px 30px;
 }
 
-.info-li {
+.infoLi {
 	padding-top: 10px;
 }
 
@@ -508,33 +508,33 @@ a:visited {
 	color: #0063bf;
 }
 
-.view-space {
+.viewSpace {
 	padding-left: 40px;
 	color: #818181;
 	font-size: 13px;
 	cursor: pointer;
 }
 
-.view-space img {
+.viewSpace img {
 	width: 12px;
 }
 
-.view-all-icon {
+.viewAllIcon {
 	width: 30x;
 }
 
-.community-space {
+.communitySpace {
 	padding-left: 20px;
 }
 
-.community-view {
+.communityView {
 	padding-left: 585px;
 	color: #818181;
 	font-size: 12.5px;
 	cursor: pointer;
 }
 
-.community-badge {
+.communityBadge {
 	display: flex;
 }
 
@@ -553,7 +553,7 @@ a:visited {
 	width: 20px;
 }
 
-.community-line {
+.communityLine {
 	display: flex;
 	align-items: center;
 	padding-bottom: 3px;
@@ -561,37 +561,37 @@ a:visited {
 	cursor: pointer;
 }
 
-.community-line img {
+.communityLine img {
 	text-align: justify;
 	padding-top: 5px;
 }
 
-.community-option {
+.communityOption {
 	text-align: center;
 	color: #0074cc;
 }
 
-.stack-number {
+.stackNumber {
 	padding-left: 70px;
 	color: #818181;
 }
 
-.meta-number {
+.metaNumber {
 	padding-left: 33px;
 	color: #818181;
 }
 
-.super-number {
+.superNumber {
 	padding-left: 100px;
 	color: #818181;
 }
 
-.server-number {
+.serverNumber {
 	padding-left: 95px;
 	color: #818181;
 }
 
-.software-number {
+.softwareNumber {
 	padding-left: 40px;
 	color: #818181;
 }
@@ -616,28 +616,28 @@ a:visited {
 	padding: 5px;
 }
 
-.gold-sub, .silver-sub, .bronze-sub{
+.goldSub, .silverSub, .bronzeSub{
 	margin-left: 7px;
 	padding-top: 3px;
 }
 
-.badge-number {
+.badgeNumber {
 	font-size: 21px;
 	font-weight: 500;
 }
 
-.badge-text {
+.badgeText {
 	font-size: small;
 }
 
-.button-badge {
+.buttonBadge {
 	display: flex;
 	width: 200px;
 	margin: 3px 0 3px 7px;
 	text-align: right;
 }
 
-.button-badge button {
+.buttonBadge button {
 	padding: 0 5px;
 	cursor: pointer;
 	align-items: center;
@@ -648,79 +648,79 @@ a:visited {
 	color: #818181;
 	font-size: 11px;
 }
-.dot-gold {
+.dotGold {
 	font-size: 18px;
 	color: #FFD700;
 }
 
-.dot-silver {
+.dotSilver {
 	font-size: 18px;
 	color: #c0c0c0;
 }
 
-.dot-bronze {
+.dotBronze {
 	font-size: 18px;
 	color: #d1a684;
 }
 
-.badge-space-extensionmethods {
+.badgeSpaceExtensionMethods {
 	margin-left: 20px;
 	font-size: 10px;
 }
 
-.badge-space-properties {
+.badgeSpaceProperties {
 	margin-left: 61px;
 	font-size: 10px;
 }
 
-.badge-space-delegates {
+.badgeSpaceDelegates {
 	margin-left: 62px;
 	font-size: 10px;
 }
 
-.badge-space-overloading {
+.badgeSpaceOverloading {
 	margin-left: 42px;
 	font-size: 10px;
 }
 
-.badge-space-operators {
+.badgeSpaceOperators {
 	margin-left: 52px;
 	font-size: 10px;
 }
 
-.badge-space-overriding {
+.badgeSpaceOverriding {
 	margin-left: 51px;
 	font-size: 10px;
 }
 
-.badge-space-networkstream {
+.badgeSpaceNetworkstream {
 	margin-left: 30px;
 	font-size: 10px;
 }
 
-.badge-space-numberformatting {
+.badgeSpaceNumberFormatting {
 	margin-left: 11px;
 	font-size: 10px;
 }
 
-.badge-space-gregoriancalendar {
+.badgeSpaceGregorianCalendar {
 	margin-left: 9px;
 	font-size: 10px;
 }
 
-.top-tag {
+.topTag {
 	padding: 20px 0 5px 263px;
 	font-size: 21px;
 }
 
-.top-tag-space {
+.topTagSpace {
 	padding-left: 590px;
 	color: #818181;
 	font-size: 12.5px;
 	cursor: pointer;
 }
 
-.top-tag-table {
+.topTagTable {
 	/*border-collapse: collapse;*/
 	width: 741px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
@@ -729,12 +729,12 @@ a:visited {
 	margin: 5px 0 0 260px;
 }
 
-.top-tag-table td {
+.topTagTable td {
 	padding: 5px;
 	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
 
-.tag-start {
+.tagStart {
 	display: flex;
 	cursor: pointer;
 }
@@ -756,27 +756,27 @@ a:visited {
 	background-color: #d0e3f1;
 }
 
-.tag-text {
+.tagText {
 	color: #6a737c;
 	font-size: 13px;
 	padding-right: 10px;
 }
 
 
-.top-post-flex {
+.topPostFlex {
 	display: flex;
 }
 
-.top-post {
+.topPost {
 	padding: 20px 0 5px 263px;
 	font-size: 21px;
 }
 
-.top-post p {
+.topPost p {
 	font-size: 13px;
 }
 
-.top-post {
+.topPost {
 	width: 300px;
 }
 
@@ -785,7 +785,7 @@ a:visited {
 	cursor: pointer;
 }
 
-.top-post-button-table-one {
+.topPostButtonTableOne {
 	border-collapse: collapse;
 	width: 195px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
@@ -797,12 +797,12 @@ a:visited {
 	cursor: pointer;
 }
 
-.top-post-button-table-one td {
+.topPostButtonTableOne td {
 	padding: 5px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
 }
 
-.top-post-button-table-two {
+.topPostButtonTableTwo {
 	border-collapse: collapse;
 	width: 95px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
@@ -814,7 +814,7 @@ a:visited {
 	cursor: pointer;
 }
 
-.top-post-button-table-two td {
+.topPostButtonTableTwo td {
 	padding: 5px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
 }
@@ -825,7 +825,7 @@ a:visited {
 }
 
 
-.top-post-table {
+.topPostTable {
 	width: 742px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
 	border-radius: 7px;
@@ -833,7 +833,7 @@ a:visited {
 	margin: 5px 0 0 263px;
 }
 
-.top-post-table td {
+.topPostTable td {
 	padding: 5px 5px 10px 5px;
 	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
@@ -848,12 +848,12 @@ a:visited {
 	color: #489afa;
 }
 
-.post-date {
+.postDate {
 	color: #6a737c;
 	font-size: 13px;
 }
 
-.green-number {
+.greenNumber {
 	border: hidden;
 	border-radius: 4px;
 	background-color: #5eba7d;
@@ -868,7 +868,7 @@ a:visited {
 	padding: 10px 5px 3px 5px;
 }
 
-.grey-number {
+.greyNumber {
 	border: 1px solid rgba(129, 129, 129, 0.4);
 	border-radius: 4px;
 	background-color: transparent;
@@ -883,33 +883,33 @@ a:visited {
 	padding: 10px 5px 3px 5px;
 }
 
-.top-meta-flex {
+.topMetaFlex {
 	display: flex;
 }
 
-.top-meta-post {
+.topMetaPost {
 	padding: 20px 0 5px 263px;
 	font-size: 21px;
 }
 
-.meta-post-image img {
+.metaPostImage img {
 	padding-top: 27px;
 	margin-left: 525px;
 	width: 75px;
 }
 
 
-.top-network-flex {
+.topNetworkFlex {
 	display: flex;
 }
 
-.top-network-post {
+.topNetworkPost {
 	padding: 20px 0 5px 263px;
 	font-size: 21px;
 }
 
 
-.network-post-view {
+.networkPostView {
 	margin-top: 35px;
 	padding-left: 450px;
 	color: #818181;
@@ -917,7 +917,7 @@ a:visited {
 	cursor: pointer;
 }
 
-.top-network-table {
+.topNetworkTable {
 	width: 742px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
 	border-radius: 7px;
@@ -925,7 +925,7 @@ a:visited {
 	margin: 5px 0 20px 263px;
 }
 
-.top-network-table td {
+.topNetworkTable td {
 	padding: 5px 5px 10px 5px;
 	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
@@ -952,40 +952,40 @@ a:visited {
 	cursor: pointer;
 }
 
-.footer-logo img {
+.footerLogo img {
 	width: 35px;
 	padding: 20px 0 0 50px;
 	cursor: pointer;
 }
 
-.footer-product {
+.footerProduct {
 	padding-left: 40px;
 }
 
-.footer-company {
+.footerCompany {
 	padding-left: 50px;
 }
 
-.footer-network {
+.footerNetwork {
 	padding-left: 80px;
 }
 
-.footer-social {
+.footerSocial {
 	font-size: 11px;
 	font-weight: 100;
 	margin: 30px 30px 220px 90px;
 }
 
-.social-space {
+.socialSpace {
 	padding-right: 10px;
 	cursor: pointer;
 }
 
-.footer-rights {
+.footerRights {
 	margin: 90px 90px 50px 90px;
 }
 
-.footer-rights p {
+.footerRights p {
 	font-size: 11px;
 	font-weight: 100;
 	padding: 0px;
@@ -993,6 +993,6 @@ a:visited {
 	cursor: auto;
 }
 
-.footer-rights u {
+.footerRights u {
 	cursor: pointer;
 }
