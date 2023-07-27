@@ -395,10 +395,6 @@ body {
 	padding-left: 202px;
 }
 
-.blueLink {
-	color: #0074cc;
-}
-
 .statUser {
 	display: flex;
 	margin-top: 15px;
@@ -497,6 +493,10 @@ body {
 .aboutUser {
 	color: hsl(210, 8%, 15%);
 	padding-left: 11px;
+}
+
+.blueLink {
+	color: #0074cc;
 }
 
 .info {
